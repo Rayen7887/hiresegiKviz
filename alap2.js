@@ -3,7 +3,7 @@ let szamlalo=0
 for (let i = 0; i < 3; i++) {
     for (let j = 0; j < 4; j++) {
         //console.log(i+""+j)
-        sz+=` <img id="${szamlalo}" src="a${szamlalo}.jfif" onmouseover="szegelyRajzol(this.id)" onmouseleave="szegelyLevesz(this.id)" onclick="nagyit(this.id)" alt="" style="width:100px;margin:5px;border: 2px solid white">`
+        sz+=` <img id="${szamlalo}" src="a${szamlalo}.jfif" onmouseover="szegelyRajzol(this.id)" onmouseleave="szegelyLevesz(this.id)" onclick="nagyit(this.id)" alt="" style="height:80px;margin:5px;border: 2px solid white">`
         szamlalo++
     }
     sz+=`<br>`
